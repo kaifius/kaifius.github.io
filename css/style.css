@@ -3,13 +3,17 @@
 *******************/
 header{
   margin: -20px -20px 0px -20px;
-  background:url(../img/zia_arm.jpg);
+ /*uncomment these w/ diff photo*/
+  background:url(../img/drum.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: cover;
+  background-color: rgb(56,80,118);
+   /*light blue*/
   color: rgb(191,209,233);
   padding: 20px 0px 0px 50px;
   border-width: 0px;
 }
+
 a {
   color: rgb(195,138,81);
   text-decoration: none;
@@ -19,32 +23,43 @@ a:hover {
   color: white;
 }
 
-.contact:hover {
+a[.contact]:hover {
   color: rgb(56,80,118);
 }
 
-.body-link:hover {
+body a:hover {
   color: rgb(56,80,118);
 }
+
+/* go back to regular a colors after adding a photo */
+#nav a {
+  color: white;
+}
+
+#nav a:hover {
+  color: rgb(195,138,81);
+}
+/* / */
 
 h1 {
   font-size: 70px;
-  font-family: "Futura", Century Gothic, sans-serif;
+  font-family: "Century Gothic", sans-serif;
   margin: -35px -10px -10px -10px;
 }
 h2 {
-  font-family: "Futura", Century Gothic, sans-serif;
+  color: rgb(195,138,81);
+  font-family: "Century Gothic", sans-serif;
   font-size: 40px;
   margin: 0px;
   padding: 0px;
+
 }
 h3 {
-
   font-family: "Courier New", monospace;
   margin: 0px;
 }
 h4 {
-  font-family: "Futura", Century Gothic, sans-serif;
+  font-family: "Century Gothic", sans-serif;
 }
 p {
   font-family: "Courier New", monospace;
@@ -53,16 +68,18 @@ p {
 
 img {
   margin: 0px 0px 0px -100px;
-  border: 40px solid rgba(191,209,233,.3);
+  border: 40px solid rgba(191,209,233,.6);
   border-radius: 220px
 }
 
 ul#nav {
   padding: 10px;
-  background-color: rgba(80,80,80,.5);
+  background-color: rgba(191,209,233,.6);;
+  /* use w/ photo:
+  background-color: rgba(80,80,80,.5);*/
   text-align: center;
   margin: 10px 0px 0px -40px;
-  font-family: "Futura", Century Gothic, sans-serif;
+  font-family: "Century Gothic", sans-serif;
   font-size: 20px;
   list-style: none;
   color: white;
@@ -122,21 +139,10 @@ article{
   LARGEST SCREEN
 *******************/
   @media (min-width: 978px) {
-    header{
-    background: url(../img/zia_arm.jpg);
-    background-size: cover;
-    background-position: center;
-    color: rgb(191,209,233);
-
-    }
-
     #nav {
        background-color: rgba(80,80,80,.7);
     }
     li {
       display: inline;
-    }
-    img {
-      border: 40px solid rgba(191,209,233,.3)
     }
   }
