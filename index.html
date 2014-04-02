@@ -1,35 +1,13 @@
-<!DOCTYPE html>
+---
+layout: default
+title: Your New Jekyll Site
+---
 
-<html>
-
-<head>
-	<title> Kai Hofius</title>
-<link href="css/style.css" rel="stylesheet">
-	<link href="img/me_dapper.jpg" rel="icon">
-</head>
-
-<body>
-	<header>
-		<img src="img/me_dapper.jpg">
-		<h1>KAI HOFIUS</h1>
-		<h3>poet. designer. programmer in progress.</h3>
-		<ul>
-			<li>//Check out my <a href="http://kaifius.tumblr.com" target="_blank">tumblr</a> if you like gifs and things.</li>
-			<li>//My <a href="http://github.com/kaifius" target="_blank">github</a> is just getting started.</li>
-			<li>//You can see my <a href="http://facebook.com/kaifius" target="_blank">facebook</a> if we're friends.</li>
-		</ul>
-	</header>
-	<article>
-		<h2>hi there!</h2>
-		<p>I'm Kai, an Albuquerque-bred, San Francisco-based poet, graphic designer, and programmer-in-training. I've been teaching myself Ruby for a few months now, and I'm just getting started with HTML and CSS. I've learned a few things on my journey about where/what/who on the internet has great tools to help you learn to code on your own. If you want help getting started, hit me up!</p>
-
-		<h4>//EMAIL <a href="mailto:kai.hofius@gmail.com">kai.hofius@gmail.com</a><br />
-		//<strong>PHONE</strong> <a href="tel:505-315-4168">505.315.4168</a><br />
-		//<strong>LINKEDIN</strong> <a href="http://www.linkedin.com/pub/kai-hofius/22/8b4/ab1">www.linkedin.com/pub/kai-hofius/22/8b4/ab1</a> </h4>
-	</article>
-
-
-
-</body>
-</html>
-
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
