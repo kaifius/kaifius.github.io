@@ -19,6 +19,10 @@ a:hover {
   color: white;
 }
 
+.contact:hover {
+  color: rgb(56,80,118);
+}
+
 h1 {
   font-size: 70px;
   font-family: "Futura", Century Gothic, sans-serif;
@@ -74,6 +78,7 @@ article{
   padding: 20px;
   margin: 0 auto;
 }
+
 
 
 /******************
