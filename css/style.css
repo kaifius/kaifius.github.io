@@ -1,15 +1,19 @@
- header{
-    margin: -20px -20px 0px -20px;
-    background:url(../img/trans_america.jpg);
-    background-size: cover;
-    background-position: center;
-    color: rgb(56,80,118);
-    padding: 20px 0px 0px 50px;
-    border-width: 0px;
-    }
+/******************
+  MAIN/MID-SIZE
+*******************/
+header{
+  margin: -20px -20px 0px -20px;
+  background:url(../img/zia_arm.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(191,209,233);
+  padding: 20px 0px 0px 50px;
+  border-width: 0px;
+}
 a {
   color: rgb(195,138,81);
   text-decoration: none;
+  font-weight: bold;
 }
 a:hover {
   color: white;
@@ -27,7 +31,7 @@ h2 {
   padding: 0px;
 }
 h3 {
-  
+
   font-family: "Courier New", monospace;
   margin: 0px;
 }
@@ -36,28 +40,31 @@ h4 {
 }
 p {
   font-family: "Courier New", monospace;
+  font-size: 18px;
 }
 
 img {
   margin: 0px 0px 0px -100px;
-  border: 40px solid rgba(56,80,118,.3);
+  border: 40px solid rgba(191,209,233,.3);
   border-radius: 220px
 }
 
-li {
-  font-family: "Futura", Century Gothic, sans-serif;
-  font-size: 15px;
-  list-style: none;
-  display: block;
-  color: white;
-  margin: 0px 10px 0px 0px;
-}
-ul {
+ul#nav {
   padding: 10px;
   background-color: rgba(80,80,80,.5);
   text-align: center;
   margin: 10px 0px 0px -40px;
+  font-family: "Futura", Century Gothic, sans-serif;
+  font-size: 20px;
+  list-style: none;
+  color: white;
+  font-weight: bold;
 }
+
+li {
+  display: inline;
+}
+
 body {
   color: rgb(56,80,118);
 }
@@ -68,11 +75,13 @@ article{
   margin: 0 auto;
 }
 
+
+/******************
+  SMALLEST SCREEN
+*******************/
 @media (max-width: 500px) {
-  header{
-    background:url(../img/little_kai.jpg);
-    background-size: cover;
-    color: rgb(191,209,233)
+  #name {
+    text-align: center;
   }
   h1 {
     font-size: 50px;
@@ -81,43 +90,44 @@ article{
   h2 {
     font-size: 30px;
   }
-  h3 {
-    font-size: 15px;
-  }
   h4 {
     font-size: 14px;
   }
-  ul {
+  #nav {
     text-align: left;
     padding-left: 32px;
     background-color: rgba(80,80,80,.5);
   }
   li {
-    display: block;
+    /*display: block;*/
     padding: 5px;
-    font-size: 14px;
+    /*font-size: 14px;*/
   }
   img {
-    visibility: hidden;
-    }  
+    /*visibility: hidden;*/
+    margin: 20px auto 0 auto;
   }
+}
 
+/******************
+  LARGEST SCREEN
+*******************/
   @media (min-width: 978px) {
     header{
     background: url(../img/zia_arm.jpg);
     background-size: cover;
     background-position: center;
     color: rgb(191,209,233);
-    
+
     }
 
-    ul {
+    #nav {
        background-color: rgba(80,80,80,.7);
     }
     li {
       display: inline;
     }
     img {
-    border: 40px solid rgba(191,209,233,.3)
+      border: 40px solid rgba(191,209,233,.3)
     }
   }
