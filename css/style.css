@@ -1,6 +1,8 @@
 /******************
   MAIN/MID-SIZE
 *******************/
+
+* { margin: 0; padding: 0; }
 .fixed {
   position: fixed;
   top: 0;
