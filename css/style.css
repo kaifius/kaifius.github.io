@@ -110,6 +110,14 @@ article {
   border-top: 0;
 }
 
+.row {
+  margin-left: -15px;
+  margin
+}
+
+#project-2, #contact {
+  background-color: salmon;
+}
 
 
 /******************
