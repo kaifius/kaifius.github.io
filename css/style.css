@@ -32,11 +32,11 @@ body a:hover {
 }
 
 /* go back to regular a colors after adding a photo */
-#nav a {
+nav ul a {
   color: white;
 }
 
-#nav a:hover {
+nav ul a:hover {
   color: rgb(201,117,37);
 }
 /* / */
@@ -72,7 +72,7 @@ img#profile-pic {
   border-radius: 220px
 }
 
-ul#nav {
+nav ul {
   padding: 10px;
   background-color: rgba(191,209,233,.6);;
   /* use w/ photo:
@@ -140,7 +140,7 @@ article {
   h4 {
     font-size: 14px;
   }
-  #nav {
+  nav ul {
     text-align: left;
     padding-left: 32px;
     background-color: rgba(80,80,80,.5);
@@ -160,7 +160,7 @@ article {
   LARGEST SCREEN
 *******************/
   @media (min-width: 978px) {
-    #nav {
+    nav ul {
        background-color: rgba(80,80,80,.7);
     }
     li {
