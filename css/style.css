@@ -50,6 +50,7 @@ nav li a {
 
 section {
 	height: 100vh;
+  padding-top: 80px;
 }
 
 /* Screens Settings */
@@ -57,25 +58,18 @@ section {
 	background: #43b29d;
 }
 
-#screen2 {
+#about {
 	background: #efc94d;
 }
 
-#screen3 {
+#work {
 	background: #e1793d;
 }
 
-#screen4 {
-  background: #43b29d;
-}
-
-#screen5 {
+#contact {
   background: #efc94d;
 }
 
-#screen6 {
-  background: #e1793d;
-}
 /******************
 END TUTORIAL
 ******************/
@@ -129,7 +123,7 @@ img#profile-pic {
 
 article {
   max-width: 900px;
-  padding: 50px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
   margin: 0 auto;
   text-align: left;
 }
@@ -137,4 +131,9 @@ article {
 .section-header{
   margin: 0px;
   padding: 0px;
+}
+
+.contact-icons {
+  display: inline-block;
+  padding-right: 20px
 }

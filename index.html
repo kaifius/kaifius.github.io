@@ -2,75 +2,84 @@
 
 <html>
 
-<head>
-	<title> Kai Hofius</title>
-	<link href="css/style.css" rel="stylesheet">
-	<link href="img/favicon.png" rel="icon">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="js/main.js"></script>
-</head>
+	<head>
+		<title> Kai Hofius</title>
+		<link href="css/style.css" rel="stylesheet">
+		<link href="img/favicon.png" rel="icon">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</head>
 
-<body>
-	<section id="screen1">
-		<header>
-			<img id="profile-pic" src="img/me_dapper.jpg">
-			<h1 id="main-title">kai hofius</h1>
-			<h3 id="subtitle">full-stack web developer</h3>
-		</header>
-		<nav>
-			<ul>
-<!--  	<li>/  <a href="http://github.com/kaifius" target="_blank">GITHUB</a>  /</li>
-				<li>/  <a href="http://kaicodes.tumblr.com" target="_blank">BLOG</a>  /</li>
-				<li>/  <a href="http://www.linkedin.com/in/kaihofius" target="_blank">LINKEDIN</a>  /</li>
-				<li>/  <a href="assets/resume.pdf" target="_blank">RESUME</a>  /</li> -->
-				<li>/  <a href="#contact">contact</a>  /</li>
-				<li>/  <a href="#section2">section2</a>  /</li>
-				<li>/  <a href="#section3">section3</a>  /</li>
-				<li>/  <a href="#section4">section4</a>  /</li>
-			</ul>
-		</nav>
-	</section>
-
-	<section id="screen2">
-		<article id="intro">
-			<header class="section-header">
-				<h2>hi there!</h2>
+	<body>
+		<section id="screen1">
+			<header>
+				<img id="profile-pic" src="img/me_dapper.jpg">
+				<h1 id="main-title">kai hofius</h1>
+				<h3 id="subtitle">full-stack web developer</h3>
 			</header>
-			<p>I'm Kai, an Oakland-based full-stack web developer with a strong emphasis in RoR. <strong>This site is a work in progress</strong>; check out my <a class="body-link" href="http://kaicodes.tumblr.com" target="_blank">blog</a> and <a class="body-link" href="http://github.com/kaifius" target="_blank">github</a></li> to see what I'm up to!</p>
-		</article>
-	</section>
+			<nav>
+				<ul>
+	<!--  	<li>/  <a href="http://github.com/kaifius" target="_blank">GITHUB</a>  /</li>
+					<li>/  <a href="http://kaicodes.tumblr.com" target="_blank">BLOG</a>  /</li>
+					<li>/  <a href="http://www.linkedin.com/in/kaihofius" target="_blank">LINKEDIN</a>  /</li>
+					<li>/  <a href="assets/resume.pdf" target="_blank">RESUME</a>  /</li> -->
+					<li>/  <a href="#about">about</a>  /</li>
+					<li>/  <a href="#work">work</a>  /</li> <!--dropdown w/ each project? -->
+					<li>/  <a href="#contact">contact</a>  /</li>
+				</ul>
+			</nav>
+		</section>
 
-	<section id="screen3">
-		<article id="project-1">
-			<p><strong>> de Novo.</strong> A RESTful Rails and AngularJS app that allows users to track major life changes with video (via the
-	YouTube API), photos, and text. Users can also search, follow and message other users.</p>
-		</article>
-	</section>
+		<section id="about">
+			<article id="intro">
+				<header class="section-header">
+					<h2>hi there!</h2>
+				</header>
+				<p>I'm Kai, an Oakland-based full-stack web developer with a strong emphasis in RoR. <strong>This site is a work in progress</strong>; check out my <a class="body-link" href="http://kaicodes.tumblr.com" target="_blank">blog</a> and <a class="body-link" href="http://github.com/kaifius" target="_blank">github</a></li> to see what I'm up to!</p>
+			</article>
+		</section>
 
-	<section id="screen4">
-		<article>
-			<p><strong>> AudioFile.</strong> A RESTful Rails app that allows users to upload, share, and upvote audio; create snippets of soundclips;
-	search for user content; make playlists and view a map of user activity worldwide. Built by a team of 4, I implemented
-	the search and playlist features, as well as general bug fixes and managing our timeline and Github merges.</p>
-		</article>
-	</section>
+		<section id="work">
+			<article id="de-novo">
+				<p><strong>> de Novo.</strong> A RESTful Rails and AngularJS app that allows users to track major life changes with video (via the
+		YouTube API), photos, and text. Users can also search, follow and message other users.</p>
+			</article>
 
-	<section id="screen5">
-		<article>
-			<p><strong>> Dawn Chorus.</strong> A RESTful Rails app that uses the Twilio API to allow users to send messages via text or voice from
-	their browser, as well as save and manage their contacts and message history.</p>
-		</article>
-	</section>
+			<article id="audiofile">
+				<p><strong>> AudioFile.</strong> A RESTful Rails app that allows users to upload, share, and upvote audio; create snippets of soundclips;
+		search for user content; make playlists and view a map of user activity worldwide. Built by a team of 4, I implemented
+		the search and playlist features, as well as general bug fixes and managing our timeline and Github merges.</p>
+			</article>
 
-	<section id="screen6">
-		<article>
-			<h4>
-				//CONTACT ME<br>
-				<a class="contact" href="mailto:kai.hofius@gmail.com">kai.hofius@gmail.com</a><br />
-				<a class="contact" href="tel:505-315-4168">505.315.4168</a>
-			</h4>
-		</article>
-	</section>
+			<article id="dawn-chorus">
+				<p><strong>> Dawn Chorus.</strong> A RESTful Rails app that uses the Twilio API to allow users to send messages via text or voice from
+		their browser, as well as save and manage their contacts and message history.</p>
+			</article>
+		</section>
 
-</body>
+		<section id="contact">
+			<article>
+
+				<header class="section-header">
+					<h2>contact me.</h2>
+				</header>
+				<div class="contact-icons">
+					<a href="#"><img src="img/linkedin-logo.png" /></a>
+				</div>
+				<div class="contact-icons">
+					<a href="http://github.com/kaifius"><img src="img/github-logo.png" /></a>
+				</div>
+				<div class="contact-icons">
+					<a href="#"><img src="img/tumblr_logo_white_32.png" /></a>
+				</div>
+				<ul id="more-contact">
+					<li><a href="mailto:kai.hofius@gmail.com" target="_blank">kai dot hofius at gmail dot com</a></li>
+					<li><a href="tel:505-315-4168" target="_blank">505-315-4168</a></li>
+					<li><a href="assets/resume.pdf" target="_blank">resume (PDF)</a></li>
+			</ul>
+
+			</article>
+		</section>
+
+	</body>
 </html>
