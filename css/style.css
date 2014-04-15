@@ -49,8 +49,8 @@ nav li a {
 }
 
 section {
-	height: 100vh;
-  padding-top: 80px;
+	height: 80vh;
+  padding-top: 20vh;
 }
 
 /* Screens Settings */
@@ -126,14 +126,23 @@ article {
   padding: 20px 20px 20px 20px;
   margin: 0 auto;
   text-align: left;
+  vertical-align: center;
 }
 
 .section-header{
   margin: 0px;
-  padding: 0px;
+  padding: 0 0 20px 0;
+}
+
+.section-header h2 {
+  font-size: 70px;
 }
 
 .contact-icons {
   display: inline-block;
-  padding-right: 20px
+  padding-right: 40px
+}
+
+.contact-icons img {
+  width: 70px;
 }
