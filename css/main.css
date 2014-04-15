@@ -49,9 +49,12 @@ nav li a {
 	text-transform: uppercase;
 }
 
-#logo {
-  margin-bottom: -11px;
+#nav-right, #nav-left {
+  margin-bottom: -15px;
 }
+
+
+
 
 section {
 	height: 80vh;
