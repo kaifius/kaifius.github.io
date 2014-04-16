@@ -12,8 +12,11 @@
 }
 
 body {
+  background: #ecf0f1;
   color: rgb(56,80,118);
   text-align: center;
+  font-family: "Courier New", monospace;
+  font-size: 18px;
 }
 
 a {
@@ -26,9 +29,10 @@ body a:hover {
   color: rgb(56,80,118);
 }
 
-/*******************
-PASTED FROM TUTORIAL
-*******************/
+.projects {
+  display: inline-block;
+}
+
 /* Navigation Settings */
 nav {
 	position: absolute;
@@ -70,19 +74,27 @@ section {
 	background: #efc94d;
 }
 
-#work {
-	background: #e1793d;
+#de-novo {
+/*	background: #ecf0f1;*/
+  height: 200px;
+  padding-top: 10vh;
+  margin-bottom: -80px;
+}
+
+#dawn-chorus, #audiofile {
+  height: 600px;
+}
+
+#audiofile {
+  padding-top: 0;
 }
 
 #contact {
   background: #efc94d;
 }
 
-/******************
-END TUTORIAL
-******************/
 
-nav ul a:hover {
+nav ul a:hover, a:active {
   color: rgb(201,117,37);
 }
 /* /NAVIGATION */
