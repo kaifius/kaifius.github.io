@@ -146,6 +146,7 @@ img#profile-pic {
   position: relative;
   width: 250px;
   bottom: 110px;
+  padding-right: 80px;
 }
 
 article {
