@@ -197,7 +197,10 @@ article {
   section {
     padding-top: 20px;
     padding-bottom: 20px;
-    height: auto;
+  }
+
+  #page-header, #about, #contact: {
+    height: 415px;
   }
 
   .contact-icons {
