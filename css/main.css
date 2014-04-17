@@ -181,7 +181,7 @@ article {
   width: 70px;
 }
 
-@media only screen and (max-device-width: 480px) {
+@media (max-width: 480px) {
   nav {
     display: none;
   }
@@ -202,5 +202,13 @@ article {
 
   .contact-icons {
     padding-top: 15px;
+  }
+
+  .section-header h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 15px;
   }
 }
