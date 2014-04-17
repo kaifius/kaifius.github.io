@@ -1,6 +1,6 @@
 $(function() {
-  $(window).resize(function(){
-    if ($(this)).width() > 480){
+  // $(window).resize(function(){
+    // if ($(this)).width() > 480){
         $(window).bind('scroll', function(){
           var navHeight = $(window).height() - 70;
 
@@ -24,7 +24,7 @@ $(function() {
             }
           }
         });
-    }
-  });
+    // }  
+  // });
 
 });
