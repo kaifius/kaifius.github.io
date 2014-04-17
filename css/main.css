@@ -197,7 +197,7 @@ article {
   section {
     padding-top: 20px;
     padding-bottom: 20px;
-    height: auto;
+    height: 100vh;
   }
 
   .contact-icons {
