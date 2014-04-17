@@ -61,23 +61,27 @@ nav li a {
 
 
 section {
-	height: 80vh;
-  padding-top: 20vh;
+  padding-top: 15vh;
+  padding-bottom: 5vh;
 }
 
 /* Screens Settings */
 #page-header {
-	background: #a7d9d9
+	background: #a7d9d9;
+  height: 80vh;
 }
+
+
 
 #about {
 	background: #efc94d;
+  height: 80vh;
 }
 
 #de-novo {
 /*	background: #ecf0f1;*/
   height: 200px;
-  padding-top: 10vh;
+/*  padding-top: 10vh;*/
   margin-bottom: -80px;
 }
 
@@ -87,10 +91,12 @@ section {
 
 #audiofile {
   padding-top: 0;
+  margin-bottom: -80px;
 }
 
 #contact {
   background: #efc94d;
+  height: 100vh;
 }
 
 
@@ -189,8 +195,8 @@ article {
   }
 
   section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
     height: auto;
   }
 
@@ -198,3 +204,5 @@ article {
     padding-top: 15px;
   }
 }
+
+@media (max-height: )
