@@ -174,3 +174,27 @@ article {
 .contact-icons img {
   width: 70px;
 }
+
+@media only screen and (max-device-width: 480px) {
+  nav {
+    display: none;
+  }
+
+  #laptop {
+    display: none;
+  }
+
+  .projects img {
+    width: 300px;
+  }
+
+  section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    height: auto;
+  }
+
+  .contact-icons {
+    padding-top: 15px;
+  }
+}
