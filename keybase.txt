@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/kaifius
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://kaifius
+  * I am kaifius (https://keybase.io/kaifius) on keybase.
+  * I have a public key with fingerprint 8876 A81C 3FE9 0536 B8CF  063D 3D8B B9E7 F4C3 9D72
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "8876a81c3fe90536b8cf063d3d8bb9e7f4c39d72",
+            "host": "keybase.io",
+            "key_id": "3d8bb9e7f4c39d72",
+            "uid": "50518d9b397744663b78efb362d12e00",
+            "username": "kaifius"
+        },
+        "service": {
+            "hostname": "kaifius",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1400707604,
+    "expire_in": 157680000,
+    "prev": "53573f53c16364c461b4731f91436690105df3eeef67ce29f7d3775142a86042",
+    "seqno": 2,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.15
+Comment: https://keybase.io/crypto
+
+yMHpAnicbZFtSBRbGMdnzde92Jttm4GZo0hLyzIzZ+bMzMqNMpNUuEFalIbbvJxZ
+T24z2+yuL+3d7r1EVrcuN6VPEtwPi+SFNIIoA6+sZZT4IfVDEURRIhRp6K1bUVbO
+SH25dL4czv/8/v/nPOcZyV1GOB1/vg1h99nKRsdY6mWMqE2sXxMnZUNtJ/1xshkt
+bRrWg8gMm1iPkn5SEHgoCbQCNCRSHICyoGgUBCpQBVkWEa+xChBVniG9ZJMRsR1W
+jCxFkA8blmYdAli11O/wsaULjuJoQRVlIPI8y0IIZF5Amgwgo9IMoigbjCBTlw4j
+O1zCGo5FyISXtMQWrFhifKny/wAvGTaNqKEYIUtsikbDftsTbQ/bUCuSA1/tARnr
+qtWxZWhBZgQbOumnLVKJYjuPZimKp3hIsV4StYWxiQLYJjgeCpS17DKoxW4DcDzQ
+OKDQEEBWYSEtszygNZFmAYQiRVOcqgGEkAZ5BTGixquA5zmaZSTBSrf/I4KO6Abp
+Z6xnSkErMoKDuhSNmYhM3EwdSCccTiIzI82eGeHMWfltkjMXs76EihpSHeX/ZXq8
+x67cyR4s3TJV9wbWOU1i4PPHhf7fYGHzk/pdnutzrqy8iuoH5rOf0/v7Gtp8w3H3
+P80/EF3EnrzE5p/WueqSD1sHqrqK/asPOl5fGq6flELb32Ufd/0+4Lnh6h129yBP
+4cyPf5TULiCyqLvxr1967u0cPzk0OiiP4xrfudMFc2aZN/hr60amd165PZl7/zke
+nZ3eceHayNEaPeNEcZo7VZSsnE2aBVUVhx5t+nds32CSo6t9gU/Ld7/oHS8/w2zd
+mzW/lntfkJFfUjiV1lf7yp+TW5q5f0Vp96mn4cvnN5R1drB/5018uNX5+O6qobhj
+mzFxdSR/ehHS2QLM
+=3yM1
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kaifius
+
+==================================================================
