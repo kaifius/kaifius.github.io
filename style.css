@@ -21,6 +21,41 @@ body {
 .hero {
   padding: 1.5rem 0 1rem;
   border-bottom: 1px solid rgba(56, 80, 118, 0.14);
+  position: relative;
+}
+
+.hero-laptop {
+  display: block;
+  width: min(320px, 100%);
+  margin: 0;
+  opacity: 1;
+  pointer-events: none;
+  align-self: start;
+}
+
+.illustration-panel {
+  margin-top: 2rem;
+}
+
+.panel-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 18px;
+  border: 1px solid rgba(56, 80, 118, 0.12);
+  background: white;
+}
+
+.panel-card h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.3rem;
+}
+
+.panel-card p {
+  margin: 0;
+  color: rgb(56, 80, 118);
 }
 
 .hero-inner {
@@ -49,6 +84,12 @@ body {
 
   .hero-image {
     justify-self: center;
+  }
+
+  .hero-laptop {
+    width: min(200px, 100%);
+    margin-top: 1.5rem;
+    opacity: 0.14;
   }
 }
 
