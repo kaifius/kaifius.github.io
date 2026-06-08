@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Kai Hofius</title>
+  <link rel="icon" href="img/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .contact-card {
+      background: white;
+      border: 1px solid rgba(56, 80, 118, 0.12);
+      border-radius: 14px;
+      padding: 2rem 2rem;
+      max-width: 540px;
+    }
+
+    .contact-card h1 {
+      font-size: 1.6rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .contact-card .subhead {
+      color: #8b949e;
+      margin-bottom: 1.75rem;
+      font-size: 0.97rem;
+    }
+
+    .form-field {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      margin-bottom: 1.1rem;
+    }
+
+    .form-field label {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #adbac7;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .form-field input,
+    .form-field textarea {
+      padding: 0.65rem 0.85rem;
+      border: 1px solid rgba(56, 80, 118, 0.2);
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 1rem;
+      color: rgb(56, 80, 118);
+      background: #f7f9fb;
+      transition: border-color 0.15s;
+      outline: none;
+    }
+
+    .form-field input:focus,
+    .form-field textarea:focus {
+      border-color: rgb(56, 80, 118);
+      background: white;
+    }
+
+    .form-field textarea {
+      resize: vertical;
+      min-height: 130px;
+    }
+
+    .form-actions {
+      display: flex;
+      align-items: center;
+      gap: 1.25rem;
+      margin-top: 0.5rem;
+    }
+
+    .btn-send {
+      padding: 0.65rem 1.5rem;
+      background: rgb(56, 80, 118);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+
+    .btn-send:hover {
+      background: rgb(40, 60, 95);
+    }
+
+    .back-link {
+      font-size: 0.95rem;
+      color: rgb(201, 117, 37);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .back-link:hover {
+      color: rgb(56, 80, 118);
+    }
+  </style>
+</head>
+<body>
+  <main class="page-shell">
+    <div class="contact-card">
+      <h1>Get in touch!</h1>
+      <p class="subhead">I'll get back to you as soon as I can.</p>
+
+      <form action="https://formspree.io/f/xgobkbdv" method="POST">
+        <div class="form-field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required autocomplete="name" />
+        </div>
+        <div class="form-field">
+          <label for="email">Your email</label>
+          <input type="email" id="email" name="email" required autocomplete="email" />
+        </div>
+        <div class="form-field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn-send">Send</button>
+          <a href="index.html" class="back-link">← Back</a>
+        </div>
+      </form>
+    </div>
+  </main>
+</body>
+</html>
