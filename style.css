@@ -90,6 +90,7 @@ body {
 
 .hero-image--desktop {
   justify-self: end;
+  align-self: end;
 }
 
 .hero-image--desktop img {
